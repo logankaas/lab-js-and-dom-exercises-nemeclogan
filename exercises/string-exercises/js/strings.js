@@ -19,9 +19,11 @@ class StringFunctions {
      * @example
      * reverse('abc') // 'cba'
      */
-    reverse(input) { 
-      
-      return input;
+    reverse(input) {
+      var splitString = input.split("");
+      var reverseArray = splitString.reverse();
+      var joinArray = reverseArray.join("");
+      return joinArray;
     }
     /**
      * Returns an array of the words in a string
@@ -31,6 +33,7 @@ class StringFunctions {
      * words('hello world') // ['hello', 'world']
      */
     split(input) { 
-      return [input];
+   var arr = input.split(" ");
+      return arr;
     }
 }
