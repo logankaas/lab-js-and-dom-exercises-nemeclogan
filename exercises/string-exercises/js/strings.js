@@ -1,3 +1,5 @@
+const { splitString } = require("../../../../assn-2-js-exercises-nemeclogan/src/2.strings");
+
 class StringFunctions {
     /**
      * @param {string} input
@@ -6,8 +8,9 @@ class StringFunctions {
      * capitalize('hello world') // 'Hello world'
      * capitalize('HELLO WORLD') // 'Hello world'
      */
-    capitalize(input) { 
-      return input; 
+    capitalize(input) {
+      var allCaps = input.toUpperCase();
+      return allCaps; 
     }
     /**
      * Returns a reversed string. Example: "abc" => "cba"
@@ -17,6 +20,7 @@ class StringFunctions {
      * reverse('abc') // 'cba'
      */
     reverse(input) { 
+      
       return input;
     }
     /**
