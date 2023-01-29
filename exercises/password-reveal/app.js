@@ -10,3 +10,14 @@ const form = document.querySelector("form");
 form.addEventListener('submit',function(e){
 	e.preventDefault();
 });
+
+const input = document.getElementById("password");
+const togglePassword = document.getElementById("togglePassword");
+
+togglePassword.addEventListener("click", function (e){
+	if (input.type === "text"){
+		input.type = "password";
+	} else {
+		input.type = "text";
+	}
+});
