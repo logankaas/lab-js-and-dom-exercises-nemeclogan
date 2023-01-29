@@ -65,9 +65,9 @@ class ArrayFunctions {
    */
   append(arr, item) {
     // hint: push, slice, splice would all work. Pay attention to the return value in the docs
-    const arraryFunctions = ['1, 2, 3', '1, 2, 3, 4'];
+    const arrayFunctions = ['1, 2, 3', '1, 2, 3, 4'];
     arrayFunctions.push('item');
-    return arr;
+    return arrayFunctions;
   }
 
   /**
@@ -92,6 +92,8 @@ class ArrayFunctions {
    */
   square(arr) {
     // hint: use .map
-    return ;
-  }
+    /*let arr = [1, 2, 4, 5];
+    let  number = arr.map(x => x ** 2);
+    return number;
+  */}
 }
