@@ -8,7 +8,9 @@ class ArrayFunctions {
    * indexOf([1,2,3,5,6], 3); // 2
    */
   indexOf(arr, item) {
-    return ;
+    indexOf(arr);
+    indexOf(arr, item);
+    return;
   }
 
   /**
@@ -20,6 +22,17 @@ class ArrayFunctions {
    */
   sum(arr) {
     // Hint: use the reduce method
+    // TEST: const sum = [1, 2, 3].reduce((partialSum, a) => partialSum + a, 0);
+    /* TEST: console.log(
+      [1, 2, 3, 4].reduce((a, b) => a +  b, 0)
+    )
+    console.log(
+      [].reduce((a, b) => a + b, 0))
+    */
+      let array = [1,2,3];
+      let sum = array.reduce(function(a, b){
+        return a + b;
+      })
     return ;
   }
 
