@@ -46,6 +46,12 @@ class ArrayFunctions {
    * filter([1,2,3,5,6,2,4,2], 2); // [1,3,5,6,4]
    */
   filterOut(arr, item) {
+    /*const arr = [1, 2, 3, 5, 6, 2, 4, 2,];
+    const item = 2;
+    const arr = arr.filter(function(item) {
+      return item !== item;
+    });
+    */
     return ;
   }
 
@@ -59,6 +65,8 @@ class ArrayFunctions {
    */
   append(arr, item) {
     // hint: push, slice, splice would all work. Pay attention to the return value in the docs
+    const arraryFunctions = ['1, 2, 3', '1, 2, 3, 4'];
+    arrayFunctions.push('item');
     return arr;
   }
 
