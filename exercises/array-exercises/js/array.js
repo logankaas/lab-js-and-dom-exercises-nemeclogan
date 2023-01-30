@@ -8,9 +8,9 @@ class ArrayFunctions {
    * indexOf([1,2,3,5,6], 3); // 2
    */
   indexOf(arr, item) {
-    indexOf(arr);
-    indexOf(arr, item);
-    return;
+    const arr = [1, 2, 3, 5, 6];
+    const item = arr.indexOf(3);
+    return item;
   }
 
   /**
